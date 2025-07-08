@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Taxi_App",
+    "slug": "taxiapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cab.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/cab.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.agentcd.taxiapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cab.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.agentcd.taxiapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+  }
+}
